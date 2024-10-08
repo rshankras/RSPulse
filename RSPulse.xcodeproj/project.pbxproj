@@ -11,6 +11,7 @@
 		484D7A7C2CB4EB1E0002B911 /* RSPulse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484D7A712CB4EB1E0002B911 /* RSPulse.framework */; };
 		484D7A812CB4EB1E0002B911 /* RSPulseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484D7A802CB4EB1E0002B911 /* RSPulseTests.swift */; };
 		484D7A822CB4EB1E0002B911 /* RSPulse.h in Headers */ = {isa = PBXBuildFile; fileRef = 484D7A742CB4EB1E0002B911 /* RSPulse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		484D7A8C2CB4EB4F0002B911 /* AnimateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484D7A8B2CB4EB4F0002B911 /* AnimateButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		484D7A752CB4EB1E0002B911 /* RSPulse.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RSPulse.docc; sourceTree = "<group>"; };
 		484D7A7B2CB4EB1E0002B911 /* RSPulseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSPulseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		484D7A802CB4EB1E0002B911 /* RSPulseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSPulseTests.swift; sourceTree = "<group>"; };
+		484D7A8B2CB4EB4F0002B911 /* AnimateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		484D7A672CB4EB1E0002B911 = {
 			isa = PBXGroup;
 			children = (
+				484D7A8B2CB4EB4F0002B911 /* AnimateButton.swift */,
 				484D7A732CB4EB1E0002B911 /* RSPulse */,
 				484D7A7F2CB4EB1E0002B911 /* RSPulseTests */,
 				484D7A722CB4EB1E0002B911 /* Products */,
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				484D7A762CB4EB1E0002B911 /* RSPulse.docc in Sources */,
+				484D7A8C2CB4EB4F0002B911 /* AnimateButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 		484D7A892CB4EB1E0002B911 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -424,6 +429,7 @@
 		484D7A8A2CB4EB1E0002B911 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
